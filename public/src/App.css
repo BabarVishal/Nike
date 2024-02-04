@@ -1,0 +1,90 @@
+
+body,html {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+
+nav{
+   height: 50px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   /* border-bottom: 1px solid rgb(110, 105, 105); */
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul{
+   
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    gap: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    list-style-type: none;
+}
+li:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(231, 227, 222);
+    color: black;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.herocontent{
+  
+    height: 100%;
+    width: 50%;
+}
+.herocontent h1{
+     font-size: 70px;
+}
+
+.vishal{
+ display: flex;
+ gap: 20px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+  margin-left: 5px;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.babar {
+     color: black;
+     background-color: white;
+     border: 1px solid black;
+}
